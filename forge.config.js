@@ -1,4 +1,17 @@
 module.exports = {
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'alexanderMathieuPro',
+          name: 'electronJS',
+        },
+        prerelease: false,
+        draft: true,
+      },
+    },
+  ],
   packagerConfig: {},
   rebuildConfig: {},
   makers: [
