@@ -1,4 +1,4 @@
-process.env.GITHUB_TOKEN = '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';
+process.env.GITHUB_TOKEN = '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';
 module.exports = {
   publishers: [
     {
