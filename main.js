@@ -1,6 +1,9 @@
 const { app, BrowserWindow,  ipcMain} = require('electron');
 const path = require('path');
 
+process.env.GITHUB_TOKEN = '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';
+require('electron-forge').make()
+
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
